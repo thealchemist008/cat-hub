@@ -7,6 +7,7 @@
 <body>
     <h1 id="top">The Cat Hub</h1>
     <h3>Registration</h3>
+    <h3>Register your cats here!</h3>
     <h4>Links</h4>
     <ul>
         <li><a href="../index.html">Home</a></li>
@@ -14,6 +15,53 @@
         <li><a href="about-us.html">About Us</a></li>
         <li><a href="#top">Registration</a></li>
     </ul>
+    <h4>Registration Form</h4>
+    <form id="info">
+        <h5>Your Information</h5>
+        <label for="fname"><strong>First Name: </strong></label>
+        <input type="text" name="fname" placeholder="First Name" id="">
+        <br>
+        <label for="lname"><strong>Last Name: </strong></label>
+        <input type="text" name="lname" placeholder="Last Name" id="">
+        <br>
+        <label for="email"><strong>Email:</strong></label>
+        <input type="email" name="email" placeholder="Email" id="" required>
+        <br>
+        <label for="bdate"><strong>Birthdate:</strong></label>
+        <input type="date" name="bdate" id="">
+        <br>
+        <br>
+        <h5>Describe Yourself!</h5>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <h5>Cat Information</h5>
+        <label for="fname"><strong>Cat Name: </strong></label>
+        <input type="text" name="fname" id="">
+        <br>
+        <br>
+        <label for="bdate"><strong>Birthdate:</strong></label>
+        <input type="date" name="bdate" id="">
+        <h5>Do you love your cat?</h5>
+        <input type="radio" name="answer" id="" required>Yes
+        <input type="radio" name="answer" id="" required>No
+        <h5>Breed</h5>
+        <select name="breed" id="">
+            <option value="0"></option>
+            <option value="1">Siamese Cat</option>
+            <option value="2">Persian Cat</option>
+            <option value="3">Sphynx Cat</option>
+            <option value="4">British Longhair</option>
+            <option value="5">British Shorthair</option>
+            <option value="6">Domestic Shorthair</option>
+        </select>
+        <br>
+        <br>
+        <input type="checkbox" name="newsletter" id="">Would you like us to send you emails?
+        <br>
+        <input type="checkbox" name="tc" id="" required>I agree to the Terms and Conditions.
+        <br>
+        <br>
+        <input type="submit" value="Apply">
+    </form>
     <h5>&copy; Copyright 2022</h5>
 </body>
 </html>
